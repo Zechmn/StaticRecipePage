@@ -14,7 +14,7 @@ Preferred communication style: Simple, everyday language.
 
 - ✅ Built complete static recipe page with vanilla HTML5 and CSS3
 - ✅ Implemented responsive design matching provided desktop and mobile mockups
-- ✅ Applied proper typography using Google Fonts (Young Serif + Outfit)
+- ✅ Applied proper typography using local font files (Young Serif + Outfit)
 - ✅ Integrated exact color scheme from style guide (Stone, Brown, Rose palette)
 - ✅ Added semantic HTML structure with proper accessibility features
 - ✅ Created nutrition table with semantic markup and screen reader support
@@ -56,8 +56,8 @@ Preferred communication style: Simple, everyday language.
 ## External Dependencies
 
 ### Fonts
-- **Google Fonts**: Young Serif (400) + Outfit (400, 600, 700)
-- **Loading**: Preconnect optimization for improved performance
+- **Local Fonts**: Young Serif (400) + Outfit (variable font + static weights 400, 600, 700)
+- **Loading**: Self-hosted font files with font-display: swap for improved performance
 
 ### Assets
 - **Recipe Image**: High-quality omelette photo with proper alt text

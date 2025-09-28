@@ -1,3 +1,45 @@
+/* Font face declarations */
+@font-face {
+    font-family: 'Young Serif';
+    src: url('./assets/fonts/YoungSerif-Regular_1759027781163.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-VariableFont_wght_1759027781162.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Fallback for browsers that don't support variable fonts */
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-Regular_1759027781163.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-SemiBold_1759027781163.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-Bold_1759027781163.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Reset and base styles */
 * {
     margin: 0;
