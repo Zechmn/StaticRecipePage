@@ -1,5 +1,6 @@
 /* Font face declarations */
 @font-face {
+
     font-family: 'Young Serif';
     src: url('./assets/fonts/YoungSerif-Regular_1759027781163.ttf') format('truetype');
     font-weight: 400;
@@ -8,6 +9,7 @@
 }
 
 @font-face {
+
     font-family: 'Outfit';
     src: url('./assets/fonts/Outfit-VariableFont_wght_1759027781162.ttf') format('truetype');
     font-weight: 100 900;
@@ -17,6 +19,7 @@
 
 /* Fallback for browsers that don't support variable fonts */
 @font-face {
+
     font-family: 'Outfit';
     src: url('./assets/fonts/Outfit-Regular_1759027781163.ttf') format('truetype');
     font-weight: 400;
@@ -73,8 +76,9 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 12px 12px 0 0;
-    margin: 0;
+    border-radius: 12px;
+    margin: 2.5rem 2.5rem 0 2.5rem;
+    max-width: calc(100% - 5rem);
 }
 
 .recipe-content {
@@ -246,7 +250,7 @@ body {
 .nutrition-table .nutrition-label {
     color: hsl(30, 10%, 34%);
     padding-left: 2rem;
-    width: 50%;
+    width: 60%;
     font-weight: 400;
     text-align: left;
 }
@@ -254,8 +258,9 @@ body {
 .nutrition-table .nutrition-value {
     color: hsl(14, 45%, 36%);
     font-weight: 700;
-    text-align: right;
-    width: 50%;
+    text-align: left;
+    width: 40%;
+    padding-left: 2rem;
 }
 
 /* Mobile responsiveness */
@@ -271,6 +276,8 @@ body {
     }
     
     .recipe-image {
+        margin: 0;
+        max-width: 100%;
         border-radius: 0;
     }
     
